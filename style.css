@@ -1,0 +1,140 @@
+@import url('https://fonts.cdnfonts.com/css/zrnic');
+*{
+padding: 0;
+margin: 0;    
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    max-width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+}
+#clogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+   
+}
+#campos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+#checkbox{
+    display: flex;
+    gap: 10px;
+}
+#check{
+    width: 30px;
+    height: 30px;
+}
+#dlogin{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#dsenha{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+#opçoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+}
+a{
+   text-decoration: none;
+   
+
+}
+#Esqueceu{
+   font-size: 27px; 
+}
+
+#botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+#ibotao{
+    background-color: white;
+    border-color: #0070d1;
+    width: 200px;
+    height: 50px;
+    font-family: 'Zrnic', sans-serif;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+#ibotao:hover{
+    background-color: rgba(128, 128, 128, 0.336);
+    transition-duration: 1s;
+}
+
+
+.gradient-background {
+    background: linear-gradient(300deg,#00439c,#00439c,#0070d1,#000000,#ffffff);
+    background-size: 300% 300%;
+    animation: gradient-animation 25s ease infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.informaçoes{
+    color: #00246E;
+    font-family: 'Zrnic', sans-serif;
+    
+  }
+#ilogin{
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Zrnic', sans-serif; 
+    font-weight: bold;
+
+}
+#isenha{
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Zrnic', sans-serif; 
+    font-weight: bold;
+}
+#E-mail{
+    font-size: 30px;
+}
+#senha{
+    font-size: 30px;
+}
+#novo{
+    font-family: 'Zrnic', sans-serif;
+    color: #000000;  
+}
+#mantenha{
+    font-size: 27px;
+}

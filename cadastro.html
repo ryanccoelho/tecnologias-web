@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="gradient-background">
+        <div class="container">   
+            <form action="#">
+            <div id="cnew">
+            <div id="preencher">   
+                <div id="plus">
+                <img src="img/bxs-user-plus.png" alt="user">   
+                </div>
+                <div id="criar">
+                <h1 class="informaçoes">Painel de cadastro do usuário</h1>
+                <h3 id="correta">Para se cadastrar em nosso site preencha os campos abaixo corretamente</h3>
+                </div>
+                
+            <div id="campos">
+                <div class="dcampos">
+                <label for="nome" class="informaçoes" id="nome">Nome Completo</label>
+                <input type="text" name="nome" id="inome">   
+                </div>
+            <div class="dcampos">     
+                 <label for="genero" class="informaçoes" id="genero">Gênero</label>
+            <div id="dgenero">
+                 <input type="radio" name="genero" value="Masculino" class="informaçoes" id="mas">
+                 <label for="masculino" class="informaçoes" id="mas">Masculino</label><br>  
+                 <input type="radio" name="genero" value="Feminino">
+                 <label for="Feminino" class="informaçoes" id="fem"> Feminino</label>
+                 <input type="radio" name="genero" value="Walmart-bag">
+                 <label for="Walmart-bag" class="informaçoes" id="wal">Walmart-bag</label>
+            </div>
+            </div>
+
+            <div class="dcampos">
+                <label for="matricula" class="informaçoes" id="Matricula">Matrícula</label>
+                <input type="text" name="matricula" id="iMatricula">
+            </div>
+
+            <div class="dcampos">
+                <label for="login" class="informaçoes" id="E-mail">E-mail</label>
+                <input type="emails" name="login" id="imail">
+            </div>
+
+            <div class="dcampos">
+                <label for="senha" class="informaçoes" id="senha">Senha</label>
+                <input type="password" name="senha" id="isenha">
+            </div>
+
+            <div class="dcampos">
+                <label for="Nsenha" class="informaçoes" id="Nsenha">Confirmar Senha</label>
+                <input type="password" name="Nsenha" id="isenha2">
+            </div>
+                
+            <div id="ddata">    
+                <label for="data" class="informaçoes" id="data">Data de nascimento</label>
+                <input type="date" name="data" id="idata">
+            </div>
+
+            <div id="dnumero">
+                <label for="idade" class="informaçoes" id="idade">Idade</label>
+                <input type="number" name="idade" id="iidade">
+            </div>
+
+            <div id="checkbox">
+            <div id="ddeseja">
+                <label for="opcoes" class="informaçoes" id="genero">O que voce deseja aprender?</label>
+            </div>
+            <div id="dopcoes">
+                <input type="checkbox" name="html" value="html" class="icheck"/>
+                <label for="html" class="informaçoes" id="HTML">Html</label><br>
+                <input type="checkbox" name="css" value="css" class="icheck"/>
+                <label for="css" class="informaçoes" id="CSS">CSS</label><br>
+                <input type="checkbox" name="javascript" value="javascript" class="icheck"/>
+                <label for="javascript" class="informaçoes" id="java">JavaScript</label>
+            </div>
+            </div>
+            <div id="combo">
+                <label for="myselect" id="plataforma" class="informaçoes">Qual plataforma você mais usa?</label>
+                <select name="myselect" id="splataforma" class="informaçoes">
+                <option value="mobile">Mobile</option>
+                <option value="pc">PC</option>   
+                </select>
+            </div>
+            <div id="botao">
+                <label for="cadastrar"></label>
+                <a href="index.html"><input type="button" value="Cadastrar" id="ibotao" class="informaçoes"></a>
+                <a href="index.html" class="informaçoes" id="voltar">Voltar</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </form>    
+        </div>
+    </div>    
+</body>
+</html>
